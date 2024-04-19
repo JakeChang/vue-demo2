@@ -3,8 +3,6 @@
     <div class="grid grid-cols-1 gap-8 md:grid-cols-3">
       <div class="mx-auto" v-for="(item, index) in items" :key="index">
         <div class="card bg-base-100 shadow-xl">
-          <figure><img src="https://daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg" alt="Shoes" />
-          </figure>
           <div class="card-body">
             <p>{{ getText(item.get('text')) }}</p>
             <div class="card-actions justify-end">
